@@ -1,7 +1,7 @@
 #!groovy
 
 
-node('master') {
+node {
 try {
   
   stage('git-clone') {
@@ -9,7 +9,7 @@ try {
   }
   
 }
-  catch (err) {
+    catch (err) {
     currentBuild.result = "FAILURE"
     throw err
   }
