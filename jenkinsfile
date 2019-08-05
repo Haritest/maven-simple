@@ -9,7 +9,7 @@ node ('master') {
   }
 
 	stage('Build') {
-            sh '/data/maven/bin/mvn clean install'
+            sh 'mvn clean install'
             
 	}
 
@@ -17,7 +17,7 @@ node ('master') {
    			 // requires SonarQube Scanner 2.8+
    				 def scannerHome = tool 'sonar_scanner';
    				 withSonarQubeEnv('sonarqube') {
-    					   sh '/data/maven/bin/mvn clean package sonar:sonar'
+    					   sh 'mvn clean package sonar:sonar'
     			 }
   	}
   	stage("Quality Gate") {
