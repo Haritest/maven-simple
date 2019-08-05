@@ -1,7 +1,7 @@
 #!groovy
 
 
-node ('master') {
+node('master') {
 try {
   
   stage('git-clone') {
