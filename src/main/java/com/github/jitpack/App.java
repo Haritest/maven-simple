@@ -2,7 +2,7 @@ package com.github.jitpack;
 
 /**
  * Hello world!
- *
+ **
  */
 public class App 
 {
