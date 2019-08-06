@@ -1,0 +1,11 @@
+#!groovy
+
+try {
+node ('master') {
+
+  stage(git-clone) {
+     checkout scm 
+  }
+  
+}
+}
