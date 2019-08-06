@@ -1,28 +1,16 @@
-# example
+[![Build Status](https://travis-ci.org/chrishantha/sample-java-programs.svg?branch=master)](https://travis-ci.org/chrishantha/sample-java-programs)
 
-Example Maven project generated using `maven-archetype-quickstart`
+Sample Java Programs
+====================
 
-[https://jitpack.io/#jitpack/maven-simple](https://jitpack.io/#jitpack/maven-simple)
+This repository contains some sample programs. All are Maven projects and can be run directly using "java -jar"
 
-[![Release](https://jitpack.io/v/jitpack/maven-simple.svg)](https://jitpack.io/#jitpack/maven-simple)
+## How to build
 
-To use it in your Maven build add:
-```xml
-  <repositories>
-	<repository>
-	    <id>jitpack.io</id>
-	    <url>https://jitpack.io</url>
-	</repository>
-  </repositories>
-```
+Run `mvn clean install` to build all sample programs
 
-and the dependency:
+## License
 
-```xml
-	<dependency>
-		<groupId>com.github.jitpack</groupId>
-		<artifactId>maven-simple</artifactId>
-		<version>0.1</version>
-	</dependency>
-```
+Copyright (C) 2015 M. Isuru Tharanga Chrishantha Perera
 
+Licensed under the Apache License, Version 2.0
