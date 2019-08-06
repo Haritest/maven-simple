@@ -1,7 +1,7 @@
 package com.github.jitpack;
 
 /**
- * Hello world!
+ ** Hello wo0000000000000000rld!
  **
  */
 public class App 
