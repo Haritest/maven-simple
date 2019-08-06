@@ -2,15 +2,9 @@
 
 node ('master') {
  
-try {
+
 
   stage('checkout') {
     checkout scm
   }
-
-}
-catch (err) {
-        currentBuild.result = "FAILURE"
-        throw err
-	}
 }
