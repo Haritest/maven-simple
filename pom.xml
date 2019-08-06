@@ -27,6 +27,11 @@
     <description>Java Sample Code to be used in examples (in blog, etc)</description>
     <inceptionYear>2015</inceptionYear>
 
+
+    <name>Simple Maven example</name>
+    <description>Java Sample Code to be used in examples (in blog, etc)</description>
+    <inceptionYear>2015</inceptionYear>
+
     <licenses>
         <license>
             <name>The Apache Software License, Version 2.0</name>
