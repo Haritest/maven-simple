@@ -52,6 +52,7 @@
         <module>allocations</module>
         <module>deadlock</module>
         <module>memoryleak</module>
+        <module>memoryleak.1</module>
         <module>threadleak</module>
         <module>memoryref</module>
     </modules>
