@@ -155,5 +155,7 @@
         <samples.version>0.0.2-SNAPSHOT</samples.version>
         <jcommander.version>1.72</jcommander.version>
         <hdrhistogram.version>2.1.11</hdrhistogram.version>
+        <sonar.organization>haritest</sonar.organization>
+        <sonar.host.url>https://sonarcloud.io</sonar.host.url>
     </properties>
 </project>
